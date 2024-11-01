@@ -1,0 +1,159 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.App {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #032920;
+  margin-bottom: 20px;
+}
+
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #50C878; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #032920; 
+}
+
+
+
+.todo-filter {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.todo-filter select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ff7373;
+}
+
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.todo-card {
+  background-color: #e0ffe0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.todo-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.todo-card .status {
+  display: flex;
+  align-items: center;
+}
+
+.todo-card .status select {
+  background-color: #ff7373;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.todo-card .status select.completed {
+  background-color: #032920;
+}
+
+.todo-card button {
+  width: 48%;
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-card .edit-btn {
+  background-color: #032920;
+}
+
+.todo-card .delete-btn {
+  background-color: #ff7373;
+}
+
+.todo-card button:hover {
+  opacity: 0.9;
+}
+.todos-heading {
+  font-size: 20px;
+  color: #032920;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #aaaac4; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
